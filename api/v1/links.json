@@ -21,6 +21,10 @@
             "href": "https://explorer.mctoken.xyz"
           },
           {
+            "label": "Tokenholder report",
+            "href": "https://mctoken.xyz/investors"
+          },
+          {
             "label": "The Story",
             "href": "https://story.mctoken.xyz"
           }

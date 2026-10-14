@@ -41,4 +41,4 @@ gate; data ships **only** on a GREEN verdict. The current verdict + `as_of` live
   shapes, no consumer change.
 - This is read-only public data. No API key, no rate limit published; please cache (files send short
   `Cache-Control` with `stale-while-revalidate`).
-
+- Tokenholder report (living edition; token facts, holders, treasury, governance, risks; informational, not an offering): https://mctoken.xyz/investors — data: https://explorer.mctoken.xyz/api/v1/prospectus.json (regenerated every 6h; quarterly editions under api/v1/reports/)
