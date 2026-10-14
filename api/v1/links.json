@@ -86,6 +86,11 @@
             "icon": "x"
           },
           {
+            "label": "Group chat",
+            "href": "https://x.com/i/chat/group_join/g2102219613270610394/x2jHihm793",
+            "icon": "x"
+          },
+          {
             "label": "Discord",
             "href": "https://discord.com/invite/gTYuUCthvC",
             "icon": "discord"
