@@ -1,7 +1,7 @@
 {
   "dataset": "links",
   "version": "v1",
-  "note": "Canonical footer link directory shared by mctoken.xyz, explorer.mctoken.xyz and voyager.mctoken.xyz. CORS-open; consuming footers fetch this with a built-in fallback.",
+  "note": "Canonical footer link directory shared by mctoken.xyz and explorer.mctoken.xyz. CORS-open; consuming footers fetch this with a built-in fallback.",
   "status": {
     "label": "Status",
     "href": "https://status.mctoken.xyz",
@@ -19,10 +19,6 @@
           {
             "label": "The Explorer",
             "href": "https://explorer.mctoken.xyz"
-          },
-          {
-            "label": "The Voyager",
-            "href": "https://voyager.mctoken.xyz"
           },
           {
             "label": "The Story",
