@@ -1,7 +1,7 @@
 {
   "dataset": "holders",
   "version": "v1",
-  "as_of": "2026-10-15T05:44:36Z",
+  "as_of": "2026-10-15T16:31:05Z",
   "chain": "solana-mainnet",
   "source": {
     "derived_from": [
@@ -20,8 +20,8 @@
   "data": [
     {
       "address": "HLnpSz9h2S4hiLQ43rnSD9XkcUThA7B8hQMKmDaiTLcC",
-      "balance": 82692511.161,
-      "pct": 19.68869,
+      "balance": 82226189.599,
+      "pct": 19.577661,
       "rank": 1,
       "type": "lp",
       "type_basis": "Meteora DYN2 SOL pool -- liquidity, not a personal holder",
@@ -757,8 +757,8 @@
     },
     {
       "address": "5Q544fKrFoe6tsEbD7S8EmxGTJYAKtTVhAW5Q5pge4j1",
-      "balance": 3390074.731,
-      "pct": 0.807161,
+      "balance": 3397477.536,
+      "pct": 0.808923,
       "rank": 29,
       "type": "lp",
       "type_basis": "Raydium — Raydium AMM v4 authority -- liquidity, not a personal holder",
@@ -805,10 +805,32 @@
       }
     },
     {
+      "address": "2sziof21j2WdMZ5Z1HjHihZVD6J23hqoomebZtR5KoXf",
+      "balance": 2551481.216,
+      "pct": 0.607495,
+      "rank": 31,
+      "type": "holder",
+      "type_basis": "default -- holds TOKE; no further claim",
+      "pool": null,
+      "pair": null,
+      "sns": null,
+      "domains": [],
+      "badges": [
+        "mcmillionaire"
+      ],
+      "cohorts": [],
+      "first_seen": "2025-08-23",
+      "age_days": 418,
+      "cite": {
+        "type": "account",
+        "ref": "2sziof21j2WdMZ5Z1HjHihZVD6J23hqoomebZtR5KoXf"
+      }
+    },
+    {
       "address": "A9YQ8AGnQ48HpKuFJWy7to4uQKyZK8WUeCc6NqUpR1Yi",
       "balance": 2506304.941,
       "pct": 0.596739,
-      "rank": 31,
+      "rank": 32,
       "type": "holder",
       "type_basis": "default -- holds TOKE; no further claim",
       "pool": null,
@@ -833,7 +855,7 @@
       "address": "4CujvSgw7GPbQQUwSQn7WAwaAQfeNuefUH26o6un98r7",
       "balance": 2247562.45,
       "pct": 0.535134,
-      "rank": 32,
+      "rank": 33,
       "type": "program",
       "type_basis": "Jupiter — Jupiter Value Average",
       "pool": null,
@@ -855,7 +877,7 @@
       "address": "GzgQVVYUSeNAtzq5j4oVPSSnQWVeuHtyRANPHFn5BVN6",
       "balance": 2105181.623,
       "pct": 0.501234,
-      "rank": 33,
+      "rank": 34,
       "type": "program",
       "type_basis": "Jupiter — Jupiter Value Average",
       "pool": null,
@@ -871,28 +893,6 @@
       "cite": {
         "type": "account",
         "ref": "GzgQVVYUSeNAtzq5j4oVPSSnQWVeuHtyRANPHFn5BVN6"
-      }
-    },
-    {
-      "address": "2sziof21j2WdMZ5Z1HjHihZVD6J23hqoomebZtR5KoXf",
-      "balance": 2092562.459,
-      "pct": 0.498229,
-      "rank": 34,
-      "type": "holder",
-      "type_basis": "default -- holds TOKE; no further claim",
-      "pool": null,
-      "pair": null,
-      "sns": null,
-      "domains": [],
-      "badges": [
-        "mcmillionaire"
-      ],
-      "cohorts": [],
-      "first_seen": "2025-08-23",
-      "age_days": 418,
-      "cite": {
-        "type": "account",
-        "ref": "2sziof21j2WdMZ5Z1HjHihZVD6J23hqoomebZtR5KoXf"
       }
     },
     {
