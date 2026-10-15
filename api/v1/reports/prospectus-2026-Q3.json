@@ -1,0 +1,301 @@
+{
+ "dataset": "prospectus",
+ "version": "v1",
+ "as_of": "2026-10-14T14:52:48Z",
+ "chain": "solana-mainnet",
+ "visibility": "l2",
+ "generated": "2026-10-15T00:28:55Z",
+ "source": {
+  "pipeline": "build_prospectus.py",
+  "inputs": [
+   "base_lean.json",
+   "labels.json",
+   "_lean_stats.json",
+   "movers.json",
+   "token.json",
+   "mcvote_nfts.json",
+   "governance.json",
+   "pools.json",
+   "ledger transfers.jsonl (30d flows)"
+  ],
+  "live_at_request": [
+   "api.mctoken.xyz/v1/oracle (price, mcap, liquidity, pools)",
+   "supply.mctoken.xyz",
+   "status.mctoken.xyz/api/history",
+   "reliability.json"
+  ]
+ },
+ "notes": "Informational. Every figure is derived from public on-chain data by the audited pipeline; not an offer, not advice. Anonymous: addresses, balances, public domain names and labelled roles only.",
+ "token": {
+  "mint": "AmgUMQeqW8H74trc8UkKjzZWtxBdpS496wh4GLy2mCpo",
+  "name": "McToken",
+  "symbol": "TOKE",
+  "decimals": 3,
+  "max_supply": 420000069.0,
+  "current_supply": 419695245.849,
+  "burned": 301673.04,
+  "burned_pct": 0.0718,
+  "authorities": {
+   "mint": null,
+   "freeze": "likely_null",
+   "update": "4R9vgpp8yDpysvLZFb6V2pipJ8p2AqEyF5g9ozyEyDjt",
+   "metadata_mutable": true
+  },
+  "launched": "2023-06-22T18:03:43Z",
+  "token_as_of": null
+ },
+ "holders": {
+  "universe": 22701,
+  "holders": 12957,
+  "with_domains": {
+   "total": 327,
+   "sol": 276,
+   "ans": 80
+  },
+  "concentration_all": {
+   "top10_pct": 61.2,
+   "top50_pct": 94.35,
+   "top100_pct": 96.44
+  },
+  "concentration_people": {
+   "top10_pct": 27.68,
+   "top50_pct": 53.64,
+   "top100_pct": 55.0
+  },
+  "class_pct": {
+   "liquidity-pool": 38.64,
+   "treasury-gov": 1.7,
+   "program": 1.46,
+   "top100-people": 55.0,
+   "rest": 3.2
+  },
+  "class_toke": {
+   "liquidity-pool": 162163905.819,
+   "treasury-gov": 7153201.663,
+   "program": 6130580.952,
+   "top100-people": 230834829.971,
+   "rest": 13412727.444
+  },
+  "growth": {
+   "1d": {
+    "holders_then": 12957,
+    "wallets_then": 22701,
+    "new_wallets": 0,
+    "legs_added": 16,
+    "cutoff": "2026-10-13T14:52:48Z"
+   },
+   "7d": {
+    "holders_then": 12961,
+    "wallets_then": 22693,
+    "new_wallets": 8,
+    "legs_added": 257,
+    "cutoff": "2026-10-07T14:52:48Z"
+   },
+   "30d": {
+    "holders_then": 12958,
+    "wallets_then": 22659,
+    "new_wallets": 42,
+    "legs_added": 993,
+    "cutoff": "2026-09-14T14:52:48Z"
+   }
+  }
+ },
+ "treasury": {
+  "wallets": [
+   {
+    "address": "BEmzTQaiwyj69uvxmdL9fSEuETg9vsVrRDAkmDE1HWTD",
+    "sns": null,
+    "sns_all": [],
+    "category": "governance",
+    "display": "Governance \u00b7 Realms",
+    "name": "SPL Governance (Realms) escrow",
+    "protocol": "Realms",
+    "confidence": "confirmed",
+    "balance": 6054076.863,
+    "pct": 1.4425,
+    "flow_30d": {
+     "in": 0.0,
+     "out": 0.0,
+     "net": 0.0,
+     "legs": 0
+    },
+    "first_seen": "2024-01-22",
+    "last_seen": "2026-09-03"
+   },
+   {
+    "address": "CEkpDznmt6PLfqP1UBgGK1kHEunquN5BsmQqhnya8WYR",
+    "sns": null,
+    "sns_all": [],
+    "category": "treasury",
+    "display": "Treasury \u00b7 Align",
+    "name": "Align org wallet \u2014 DAO treasury",
+    "protocol": "Align",
+    "confidence": "corroborated",
+    "balance": 1099124.8,
+    "pct": 0.2619,
+    "flow_30d": {
+     "in": 0.0,
+     "out": 0.0,
+     "net": 0.0,
+     "legs": 0
+    },
+    "first_seen": "2024-10-29",
+    "last_seen": "2025-01-05"
+   },
+   {
+    "address": "HgmHfEbXuHf7GDxGY9rCH28q8XQGxJxR7ajFKjwKR7KT",
+    "sns": "mctokendao.sol",
+    "sns_all": [
+     "mctokendao.sol"
+    ],
+    "category": "treasury",
+    "display": "Treasury \u00b7 Realms",
+    "name": "McVault \u2014 Realms DAO treasury (TIP-4, unlocked)",
+    "protocol": "Realms",
+    "confidence": "corroborated",
+    "balance": 0.0,
+    "pct": 0.0,
+    "flow_30d": {
+     "in": 0.0,
+     "out": 0.0,
+     "net": 0.0,
+     "legs": 0
+    },
+    "first_seen": "2024-01-30",
+    "last_seen": "2026-04-27"
+   }
+  ],
+  "total_balance": 7153201.663,
+  "total_pct": 1.7044,
+  "flows_window_days": 30,
+  "policy": null
+ },
+ "governance": {
+  "program": "GovER5Lthms3bLBqWub97yVrMmEogzX7xNjdXpPPCVZw",
+  "quorum_pct": 60,
+  "cadence": "annual 4/20",
+  "next_vote": "2027-04-20",
+  "votes": [
+   {
+    "year": 2024,
+    "theme": "Genesis",
+    "date": "2024-04-20",
+    "proposal": "9VzHbqA9WoiXnyw1DxBT9oDW6RTUcaEgU9gpPgCM3qJ5",
+    "voters": 34,
+    "weight_toke": 161217299.864,
+    "turnout_pct": 38.39,
+    "yes_toke": 155775875,
+    "no_toke": 5441425,
+    "yes_pct_of_supply": 37.09,
+    "quorum_pct": 60,
+    "passed": false,
+    "state": "Defeated",
+    "art": "https://updg8.storage.googleapis.com/815de0be-ef9c-4da9-a096-ab5fca4db69b"
+   },
+   {
+    "year": 2025,
+    "theme": "Ecosystem",
+    "date": "2025-04-20",
+    "proposal": "GHq9epLWw5823Pwr8XGHmD6esrAq5FVzpaToYC1KxKKS",
+    "voters": 47,
+    "weight_toke": 199567947.0,
+    "turnout_pct": 47.52,
+    "yes_toke": 199567947,
+    "no_toke": 0,
+    "yes_pct_of_supply": 47.52,
+    "quorum_pct": 60,
+    "passed": false,
+    "state": "Defeated",
+    "art": "https://arweave.net/4Qppn6tHm8n0nRqvbgJNTp8L6r1sMg0IHqN35uNJAPQ"
+   },
+   {
+    "year": 2026,
+    "theme": "Community",
+    "date": "2026-04-20",
+    "proposal": "5gJbKW2VsuPU2PmcVj9eJf6yW35CQksgvaz4viHAWA4z",
+    "voters": 44,
+    "weight_toke": 287440439.373,
+    "turnout_pct": 68.44,
+    "yes_toke": 287440439,
+    "no_toke": 0,
+    "yes_pct_of_supply": 68.44,
+    "quorum_pct": 60,
+    "passed": true,
+    "state": "Completed",
+    "art": "https://ipfs.io/ipfs/QmbQ7EUwVxMRvkERYbUhdXthjzUGXv7aqeh9gLNghWiMTz"
+   }
+  ],
+  "escrow": [
+   {
+    "address": "BEmzTQaiwyj69uvxmdL9fSEuETg9vsVrRDAkmDE1HWTD",
+    "sns": null,
+    "sns_all": [],
+    "category": "governance",
+    "display": "Governance \u00b7 Realms",
+    "name": "SPL Governance (Realms) escrow",
+    "protocol": "Realms",
+    "confidence": "confirmed",
+    "balance": 6054076.863,
+    "pct": 1.4425,
+    "flow_30d": {
+     "in": 0.0,
+     "out": 0.0,
+     "net": 0.0,
+     "legs": 0
+    },
+    "first_seen": "2024-01-22",
+    "last_seen": "2026-09-03"
+   }
+  ],
+  "medals": {
+   "medals": 215,
+   "owners": 106,
+   "trees": 5,
+   "burns": 0,
+   "complete_sets": 26
+  }
+ },
+ "pools_registry": [
+  {
+   "dex": "raydium",
+   "pair": "HCRty6J2toqf8EAiQSNpAeG21Qd1p8bymJpWWkBkAXkz",
+   "quote": "SOL",
+   "created": "2023-07-07T14:45:47Z",
+   "liquidity_usd": 624.78,
+   "label": null,
+   "note": "Original pool",
+   "cite": {
+    "type": "account",
+    "ref": "HCRty6J2toqf8EAiQSNpAeG21Qd1p8bymJpWWkBkAXkz"
+   }
+  },
+  {
+   "dex": "meteora",
+   "pair": "6cVMwWp6gmz697WyX9JedHu6Mxey8hV5ct8BhJNVdCwg",
+   "quote": "SOL",
+   "created": "2025-09-03T19:19:13Z",
+   "liquidity_usd": 15941.35,
+   "label": "DYN2",
+   "note": "Largest pool",
+   "cite": {
+    "type": "account",
+    "ref": "6cVMwWp6gmz697WyX9JedHu6Mxey8hV5ct8BhJNVdCwg"
+   }
+  },
+  {
+   "dex": "meteora",
+   "pair": "Ad6NEGrxHSBAGwfSTtBSHmKQgedHotCJZyFwCgRRAXc9",
+   "quote": "USDC",
+   "created": "2025-06-22T16:00:41Z",
+   "liquidity_usd": 1719.93,
+   "label": "DYN2",
+   "note": null,
+   "cite": {
+    "type": "account",
+    "ref": "Ad6NEGrxHSBAGwfSTtBSHmKQgedHotCJZyFwCgRRAXc9"
+   }
+  }
+ ],
+ "edition": "2026-Q3",
+ "frozen_at": "2026-10-15T00:29:11Z"
+}
