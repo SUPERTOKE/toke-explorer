@@ -4,7 +4,7 @@
  "as_of": "2026-10-15T16:31:05Z",
  "chain": "solana-mainnet",
  "visibility": "l2",
- "generated": "2026-10-15T19:14:03Z",
+ "generated": "2026-10-16T00:26:45Z",
  "source": {
   "pipeline": "build_prospectus.py",
   "inputs": [
