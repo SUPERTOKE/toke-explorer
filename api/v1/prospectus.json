@@ -1,10 +1,10 @@
 {
  "dataset": "prospectus",
  "version": "v1",
- "as_of": "2026-10-16T08:53:30Z",
+ "as_of": "2026-10-16T17:19:44Z",
  "chain": "solana-mainnet",
  "visibility": "l2",
- "generated": "2026-10-16T12:29:13Z",
+ "generated": "2026-10-16T20:07:09Z",
  "source": {
   "pipeline": "build_prospectus.py",
   "inputs": [
@@ -81,22 +81,22 @@
     "holders_then": 12957,
     "wallets_then": 22701,
     "new_wallets": 0,
-    "legs_added": 34,
-    "cutoff": "2026-10-15T08:53:30Z"
+    "legs_added": 16,
+    "cutoff": "2026-10-15T17:19:44Z"
    },
    "7d": {
     "holders_then": 12961,
     "wallets_then": 22699,
     "new_wallets": 2,
-    "legs_added": 232,
-    "cutoff": "2026-10-09T08:53:30Z"
+    "legs_added": 231,
+    "cutoff": "2026-10-09T17:19:44Z"
    },
    "30d": {
     "holders_then": 12958,
     "wallets_then": 22668,
     "new_wallets": 33,
-    "legs_added": 906,
-    "cutoff": "2026-09-16T08:53:30Z"
+    "legs_added": 889,
+    "cutoff": "2026-09-16T17:19:44Z"
    }
   }
  },
