@@ -3,9 +3,9 @@
   "publish_allowed": true,
   "flow_reconciled": true,
   "scope": "verified: complete wallet listing + exact current balances + freshness + FULL transfer-flow reconciliation (every wallet's net flow == its on-chain balance).",
-  "generated": "2026-10-16T20:07:15.153163Z",
-  "as_of": "2026-10-16T17:19:44Z",
-  "lag_hours": 1.84,
+  "generated": "2026-10-17T00:28:27.029136Z",
+  "as_of": "2026-10-16T22:11:39Z",
+  "lag_hours": 2.2,
   "gating": [
     {
       "check": "I1 genesis mint",
