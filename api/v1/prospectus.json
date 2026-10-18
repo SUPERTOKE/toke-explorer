@@ -1,10 +1,10 @@
 {
  "dataset": "prospectus",
  "version": "v1",
- "as_of": "2026-10-18T03:46:58Z",
+ "as_of": "2026-10-18T06:48:24Z",
  "chain": "solana-mainnet",
  "visibility": "l2",
- "generated": "2026-10-18T06:27:07Z",
+ "generated": "2026-10-18T12:24:58Z",
  "source": {
   "pipeline": "build_prospectus.py",
   "inputs": [
@@ -45,7 +45,7 @@
   "token_as_of": null
  },
  "holders": {
-  "universe": 22702,
+  "universe": 22703,
   "holders": 12956,
   "with_domains": {
    "total": 327,
@@ -80,23 +80,23 @@
    "1d": {
     "holders_then": 12956,
     "wallets_then": 22702,
-    "new_wallets": 0,
+    "new_wallets": 1,
     "legs_added": 15,
-    "cutoff": "2026-10-17T03:46:58Z"
+    "cutoff": "2026-10-17T06:48:24Z"
    },
    "7d": {
     "holders_then": 12958,
     "wallets_then": 22701,
-    "new_wallets": 1,
-    "legs_added": 240,
-    "cutoff": "2026-10-11T03:46:58Z"
+    "new_wallets": 2,
+    "legs_added": 239,
+    "cutoff": "2026-10-11T06:48:24Z"
    },
    "30d": {
     "holders_then": 12958,
     "wallets_then": 22671,
-    "new_wallets": 31,
-    "legs_added": 847,
-    "cutoff": "2026-09-18T03:46:58Z"
+    "new_wallets": 32,
+    "legs_added": 836,
+    "cutoff": "2026-09-18T06:48:24Z"
    }
   }
  },
