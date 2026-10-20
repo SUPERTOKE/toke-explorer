@@ -1,7 +1,7 @@
 {
   "dataset": "holders",
   "version": "v1",
-  "as_of": "2026-10-19T04:49:32Z",
+  "as_of": "2026-10-19T21:28:45Z",
   "chain": "solana-mainnet",
   "source": {
     "derived_from": [
@@ -20,8 +20,8 @@
   "data": [
     {
       "address": "HLnpSz9h2S4hiLQ43rnSD9XkcUThA7B8hQMKmDaiTLcC",
-      "balance": 82017870.813,
-      "pct": 19.528061,
+      "balance": 81526533.69,
+      "pct": 19.411076,
       "rank": 1,
       "type": "lp",
       "type_basis": "Meteora DYN2 SOL pool -- liquidity, not a personal holder",
@@ -201,10 +201,34 @@
       }
     },
     {
+      "address": "CNYZVtjWmxAReY5cDZ1pGMKVbpGpzFX9M5UmUxDJJ8zb",
+      "balance": 9997504.159,
+      "pct": 2.380358,
+      "rank": 8,
+      "type": "holder",
+      "type_basis": "default -- holds TOKE; no further claim",
+      "pool": null,
+      "pair": null,
+      "sns": null,
+      "domains": [],
+      "badges": [
+        "mcwhale"
+      ],
+      "cohorts": [
+        "voter"
+      ],
+      "first_seen": "2025-06-24",
+      "age_days": 482,
+      "cite": {
+        "type": "account",
+        "ref": "CNYZVtjWmxAReY5cDZ1pGMKVbpGpzFX9M5UmUxDJJ8zb"
+      }
+    },
+    {
       "address": "4PQqQS1zgYtfffwjWWHBHSBbN2Z4NhSKuyFU57k73fRg",
       "balance": 9769214.33,
       "pct": 2.326003,
-      "rank": 8,
+      "rank": 9,
       "type": "holder",
       "type_basis": "default -- holds TOKE; no further claim",
       "pool": null,
@@ -229,30 +253,6 @@
       "cite": {
         "type": "account",
         "ref": "4PQqQS1zgYtfffwjWWHBHSBbN2Z4NhSKuyFU57k73fRg"
-      }
-    },
-    {
-      "address": "CNYZVtjWmxAReY5cDZ1pGMKVbpGpzFX9M5UmUxDJJ8zb",
-      "balance": 9496742.894,
-      "pct": 2.261129,
-      "rank": 9,
-      "type": "holder",
-      "type_basis": "default -- holds TOKE; no further claim",
-      "pool": null,
-      "pair": null,
-      "sns": null,
-      "domains": [],
-      "badges": [
-        "mcwhale"
-      ],
-      "cohorts": [
-        "voter"
-      ],
-      "first_seen": "2025-06-24",
-      "age_days": 482,
-      "cite": {
-        "type": "account",
-        "ref": "CNYZVtjWmxAReY5cDZ1pGMKVbpGpzFX9M5UmUxDJJ8zb"
       }
     },
     {
@@ -757,8 +757,8 @@
     },
     {
       "address": "5Q544fKrFoe6tsEbD7S8EmxGTJYAKtTVhAW5Q5pge4j1",
-      "balance": 3382530.691,
-      "pct": 0.805364,
+      "balance": 3373025.463,
+      "pct": 0.803101,
       "rank": 29,
       "type": "lp",
       "type_basis": "Raydium — Raydium AMM v4 authority -- liquidity, not a personal holder",
