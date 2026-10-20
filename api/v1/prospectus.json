@@ -1,10 +1,10 @@
 {
  "dataset": "prospectus",
  "version": "v1",
- "as_of": "2026-10-20T03:41:07Z",
+ "as_of": "2026-10-20T18:43:46Z",
  "chain": "solana-mainnet",
  "visibility": "l2",
- "generated": "2026-10-20T12:27:17Z",
+ "generated": "2026-10-20T19:14:41Z",
  "source": {
   "pipeline": "build_prospectus.py",
   "inputs": [
@@ -45,7 +45,7 @@
   "token_as_of": null
  },
  "holders": {
-  "universe": 22704,
+  "universe": 22709,
   "holders": 12955,
   "with_domains": {
    "total": 327,
@@ -53,50 +53,50 @@
    "ans": 80
   },
   "concentration_all": {
-   "top10_pct": 61.1,
+   "top10_pct": 60.99,
    "top50_pct": 94.35,
    "top100_pct": 96.44
   },
   "concentration_people": {
    "top10_pct": 27.85,
-   "top50_pct": 53.92,
-   "top100_pct": 55.28
+   "top50_pct": 54.03,
+   "top100_pct": 55.39
   },
   "class_pct": {
-   "liquidity-pool": 38.36,
+   "liquidity-pool": 38.25,
    "treasury-gov": 1.7,
    "program": 1.46,
-   "top100-people": 55.28,
+   "top100-people": 55.39,
    "rest": 3.2
   },
   "class_toke": {
-   "liquidity-pool": 160979863.459,
+   "liquidity-pool": 160523555.416,
    "treasury-gov": 7153201.663,
    "program": 6130580.952,
-   "top100-people": 232019200.818,
+   "top100-people": 232475508.861,
    "rest": 13412383.616
   },
   "growth": {
    "1d": {
     "holders_then": 12955,
     "wallets_then": 22704,
-    "new_wallets": 0,
-    "legs_added": 15,
-    "cutoff": "2026-10-19T03:41:07Z"
+    "new_wallets": 5,
+    "legs_added": 36,
+    "cutoff": "2026-10-19T18:43:46Z"
    },
    "7d": {
     "holders_then": 12956,
     "wallets_then": 22701,
-    "new_wallets": 3,
-    "legs_added": 171,
-    "cutoff": "2026-10-13T03:41:07Z"
+    "new_wallets": 8,
+    "legs_added": 184,
+    "cutoff": "2026-10-13T18:43:46Z"
    },
    "30d": {
-    "holders_then": 12957,
+    "holders_then": 12958,
     "wallets_then": 22676,
-    "new_wallets": 28,
-    "legs_added": 765,
-    "cutoff": "2026-09-20T03:41:07Z"
+    "new_wallets": 33,
+    "legs_added": 786,
+    "cutoff": "2026-09-20T18:43:46Z"
    }
   }
  },
