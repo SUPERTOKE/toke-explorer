@@ -1,7 +1,7 @@
 {
   "dataset": "holders",
   "version": "v1",
-  "as_of": "2026-10-20T18:43:46Z",
+  "as_of": "2026-10-20T23:59:29Z",
   "chain": "solana-mainnet",
   "source": {
     "derived_from": [
@@ -20,8 +20,8 @@
   "data": [
     {
       "address": "HLnpSz9h2S4hiLQ43rnSD9XkcUThA7B8hQMKmDaiTLcC",
-      "balance": 81106019.609,
-      "pct": 19.310954,
+      "balance": 80912226.103,
+      "pct": 19.264813,
       "rank": 1,
       "type": "lp",
       "type_basis": "Meteora DYN2 SOL pool -- liquidity, not a personal holder",
@@ -679,8 +679,8 @@
     },
     {
       "address": "BeWdDLTddmeeGYPJ1DUFLBmBT7rZinLrpmztd7bC3kyT",
-      "balance": 4811480.69,
-      "pct": 1.14559,
+      "balance": 5003632.293,
+      "pct": 1.191341,
       "rank": 26,
       "type": "holder",
       "type_basis": "default -- holds TOKE; no further claim",
@@ -689,7 +689,7 @@
       "sns": null,
       "domains": [],
       "badges": [
-        "1pct-club"
+        "mcwhale"
       ],
       "cohorts": [
         "voter"
@@ -757,8 +757,8 @@
     },
     {
       "address": "5Q544fKrFoe6tsEbD7S8EmxGTJYAKtTVhAW5Q5pge4j1",
-      "balance": 3340154.818,
-      "pct": 0.795275,
+      "balance": 3341669.199,
+      "pct": 0.795635,
       "rank": 29,
       "type": "lp",
       "type_basis": "Raydium — Raydium AMM v4 authority -- liquidity, not a personal holder",
@@ -1300,8 +1300,8 @@
     },
     {
       "address": "GpMZbSM2GgvTKHJirzeGfMFoaZ8UR2X7F4v8vHTvxFbL",
-      "balance": 166840.989,
-      "pct": 0.039724,
+      "balance": 166968.511,
+      "pct": 0.039754,
       "rank": 52,
       "type": "lp",
       "type_basis": "Pool vault authority (off-curve PDA) -- liquidity, not a personal holder",
