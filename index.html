@@ -347,10 +347,11 @@
   .dot.g{background:var(--emerald)}
   .live{background:var(--emerald)}
   .tdetrow .tv.y{color:var(--emerald)}
-  .xnav{display:flex;gap:18px;align-items:center;margin-left:6px;font-size:13px}
-  .xnav a{color:var(--mut);text-decoration:none}.xnav a:hover{color:var(--txt)}
-  .xnav a.on{color:var(--blue);font-weight:600}
-  @media(max-width:760px){.xnav{display:none}}
+  .xnav{display:flex;gap:26px;align-items:center;margin-left:6px;font-family:var(--mono);font-size:11.5px;letter-spacing:2px;text-transform:uppercase}
+  .xnav a{color:var(--mut);text-decoration:none}.xnav a:hover,.xnav a.on{color:var(--txt)}
+  .xnav a.buy{font-family:var(--display);font-size:13.5px;font-weight:600;letter-spacing:0;text-transform:none;border-radius:10px;padding:9px 16px;background:var(--blue);color:#0a0c10;margin-left:4px}
+  .xnav a.buy:hover{color:#0a0c10;filter:brightness(1.08)}
+  @media(max-width:760px){.xnav{gap:14px;margin-left:0}}
   /* shared footer — one bar, twin of mctoken.xyz */
   .xfoot{margin-top:22px;border-top:1px solid var(--line);padding:22px 0 20px}
   .xfoot-bar{display:flex;align-items:center;gap:24px}
@@ -404,7 +405,7 @@
       <a href="https://mctoken.xyz">Home</a>
       <a href="https://explorer.mctoken.xyz" class="on" aria-current="page">Explorer</a>
       <a href="https://mctoken.xyz/investors" title="Tokenholder report — the living edition: token facts, holders, treasury, governance, risks. Rendered from this ledger every 6h.">Report</a>
-      <a id="navbuy" href="https://jup.ag/tokens/AmgUMQeqW8H74trc8UkKjzZWtxBdpS496wh4GLy2mCpo" target="_blank" rel="noopener">Buy</a>
+      <a id="navbuy" class="buy" href="https://jup.ag/tokens/AmgUMQeqW8H74trc8UkKjzZWtxBdpS496wh4GLy2mCpo" target="_blank" rel="noopener">Buy $TOKE</a>
     </nav>
     <div class="spacer"></div>
     <div class="stats" id="stats">
