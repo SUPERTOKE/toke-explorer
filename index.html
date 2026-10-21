@@ -3,7 +3,7 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>$TOKE Explorer · explorer.mctoken.xyz</title>
+<title>McToken Explorer — every wallet that ever touched $TOKE</title>
 <meta name="description" content="Every wallet that ever touched $TOKE — anonymous, verifiable, on-chain.">
 <link rel="icon" type="image/png" href="assets/moonman.png">
 <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -61,30 +61,28 @@
 
   /* ── live status bar ── */
   header{position:sticky;top:0;z-index:30;background:rgba(10,12,16,.9);backdrop-filter:blur(10px);border-bottom:1px solid var(--line)}
-  .hbar{max-width:1180px;margin:0 auto;padding:10px 20px;display:flex;align-items:center;gap:14px;flex-wrap:wrap}
-  .brandgrp{display:flex;align-items:center;gap:11px;min-width:0}
+  .hbar{max-width:1180px;margin:0 auto;padding:20px 22px;display:flex;align-items:center;gap:24px}
+  .xbrand{display:flex;align-items:center;gap:11px;text-decoration:none;color:var(--txt)}
+  .xbrand img{width:34px;height:34px;border-radius:8px;display:block;object-fit:cover}
+  .xbrand span{font-family:var(--display);font-weight:700;font-size:19px;letter-spacing:-.3px}
   .logo{width:36px;height:36px;border-radius:9px;display:block;object-fit:cover;background:var(--panel2)}
-  .brand b{font-size:16px;letter-spacing:.3px}
-  .brand .mintchip{font-size:10px;color:var(--mut);display:flex;align-items:center;gap:5px;margin-top:2px;flex-wrap:wrap}
-  .brand .mintchip #mint{word-break:break-all;line-height:1.35}
   .mcname{font-size:11px;color:var(--mut);font-weight:600;margin-left:8px;vertical-align:middle}
-  .stage{display:inline-block;font-size:9px;text-transform:uppercase;letter-spacing:.6px;color:var(--gold);border:1px solid var(--line2);border-radius:5px;padding:1px 5px;margin-left:7px;vertical-align:middle}
   a.logolink{display:block;line-height:0}
   .copy{cursor:pointer;color:var(--mut2);font-size:11px;user-select:none}
   .copy:hover{color:var(--accent)}
   .spacer{flex:1}
-  .stats{display:flex;align-items:center;gap:7px;flex-wrap:wrap;justify-content:flex-end}
-  .stat{background:var(--panel);border:1px solid var(--line);border-radius:9px;padding:5px 9px;line-height:1.15;min-width:62px}
-  .stat .l{font-size:8.5px;text-transform:uppercase;letter-spacing:.5px;color:var(--mut)}
-  .stat .v{font-size:12.5px;font-weight:700;margin-top:1px;white-space:nowrap}
-  .stat .v.acc{color:var(--accent)} .stat .v.sol{color:var(--purple)} .stat .v.toke{color:var(--toke)}
   .navlink{font-size:12px;color:var(--mut);border:1px solid var(--line2);border-radius:8px;padding:6px 11px}
   .navlink:hover{color:var(--txt);text-decoration:none;border-color:var(--accent)}
   .live{display:inline-block;width:6px;height:6px;border-radius:50%;background:var(--accent);margin-right:4px;animation:pulse 2s infinite}
   @keyframes pulse{0%,100%{opacity:1}50%{opacity:.35}}
 
   /* ── header status line (reconciliation — bumped up from the old body banner) ── */
-  .statusbar{max-width:1180px;margin:0 auto;padding:0 20px 9px;display:flex;align-items:baseline;gap:9px;flex-wrap:wrap;font-size:11.5px;line-height:1.4}
+  .statusbar{display:flex;align-items:center;gap:12px;flex-wrap:wrap;font-size:11.5px;line-height:1.4;margin:0 0 6px}
+  .statusbar .mintchip{display:inline-flex;align-items:center;gap:6px;color:var(--mut);font-size:11px}
+  .statusbar .mintchip #mint{font-size:11px}
+  .statusbar .clock{display:inline-flex;align-items:center;gap:6px;color:var(--mut);font-size:11px;margin-left:auto}
+  .kpis-market{margin-bottom:0}.kpis-market+.kpis{margin-top:14px}
+  .kpi .v.toke{color:var(--toke)}
   .relpill{display:inline-flex;align-items:center;gap:6px;font-weight:700}
   .relpill.rel-green{color:var(--accent)}.relpill.rel-amber{color:var(--gold)}.relpill.rel-red{color:var(--warn)}
   .relstamp{color:var(--mut)}
@@ -206,7 +204,7 @@
   .methodbody ul{margin:8px 0 4px;padding-left:18px}
   .methodbody li{margin:4px 0}
   .disclaimer{color:var(--mut2);font-size:10.5px;max-width:680px}
-  @media(max-width:760px){.hide-sm{display:none}.stats{width:100%;justify-content:flex-start}.drawer{width:100%}}
+  @media(max-width:760px){.hide-sm{display:none}.drawer{width:100%}.hbar{padding:14px 16px;gap:14px}.statusbar .clock{margin-left:0}}
 
   /* ── NFT column · Great McVote medals (3 year-posters: 2024 · 2025 · 2026) ──
      Slot boxes mirror the real on-chain poster aspect EXACTLY (2024 1080×1450 · 2025 1583×2048 ·
@@ -332,8 +330,8 @@
   .lede .x{color:var(--blue)}
   .kpi{background:var(--panel);border:1px solid var(--line);box-shadow:none;border-radius:14px}
   .kpi:hover{transform:none;box-shadow:none;border-color:var(--line2)}
-  .kpi .l,.stat .l{font-family:var(--mono)}
-  .kpi .v,.stat .v{font-family:var(--mono)}
+  .kpi .l{font-family:var(--mono)}
+  .kpi .v{font-family:var(--mono)}
   .copy:hover{color:var(--blue)}
   .navlink:hover{border-color:var(--blue)}
   .segb.on{background:rgba(90,162,255,.16);color:var(--blue)}
@@ -393,33 +391,14 @@
 </noscript>
 <header>
   <div class="hbar">
-    <div class="brandgrp">
-      <a class="logolink" href="https://mctoken.xyz" title="mctoken.xyz — home"><img src="assets/moonman.png" id="tokimg" class="logo" alt="McToken"></a>
-      <div class="brand">
-        <b id="ticker">$TOKE</b><span class="mcname">McToken</span><span class="stage">Beta</span>
-        <div class="mintchip"><span class="mono" id="mint">Amg…mCpo</span><span class="copy" id="mintcopy" title="copy mint">⧉</span>
-          <a id="mintlink" target="_blank" rel="noopener" title="view token on Orb">↗</a></div>
-      </div>
-    </div>
+    <a class="xbrand" href="https://mctoken.xyz"><img src="assets/moonman.png" id="tokimg" alt="McToken" width="34" height="34"><span>McToken</span></a>
+    <span class="spacer"></span>
     <nav class="xnav">
       <a href="https://mctoken.xyz">Home</a>
       <a href="https://explorer.mctoken.xyz" class="on" aria-current="page">Explorer</a>
       <a href="https://mctoken.xyz/investors" title="Tokenholder report — the living edition: token facts, holders, treasury, governance, risks. Rendered from this ledger every 6h.">Report</a>
       <a id="navbuy" class="buy" href="https://jup.ag/tokens/AmgUMQeqW8H74trc8UkKjzZWtxBdpS496wh4GLy2mCpo" target="_blank" rel="noopener">Buy $TOKE</a>
     </nav>
-    <div class="spacer"></div>
-    <div class="stats" id="stats">
-      <div class="stat"><div class="l">TOKE</div><div class="v toke" id="s-price">—</div></div>
-      <div class="stat"><div class="l">Market cap</div><div class="v" id="s-mcap">—</div></div>
-      <div class="stat"><div class="l">TVL</div><div class="v" id="s-tvl">—</div></div>
-      <div class="stat"><div class="l">Vol 24h</div><div class="v" id="s-vol">—</div></div>
-      <div class="stat"><div class="l">Age</div><div class="v" id="s-age">—</div></div>
-      <div class="stat" style="min-width:148px"><div class="l"><span class="live"></span>UTC · date &amp; time</div><div class="v mono" id="s-datetime">—</div></div>
-    </div>
-  </div>
-  <div class="statusbar">
-    <span class="relpill rel-amber" id="relstatus"><span class="dot a"></span>Loading status…</span>
-    <span class="relstamp" id="relstamp"></span>
   </div>
 </header>
 
@@ -428,6 +407,19 @@
   <p class="sub">The complete base: all addresses that have appeared in a TOKE transfer since genesis, with
      current balance, activity, and on-chain-proven tags. Anonymous and verifiable — click any wallet to drill in.</p>
 
+  <div class="statusbar">
+    <span class="relpill rel-amber" id="relstatus"><span class="dot a"></span>Loading status…</span>
+    <span class="relstamp" id="relstamp"></span>
+    <span class="mintchip">mint <span class="mono" id="mint">Amg…mCpo</span><span class="copy" id="mintcopy" title="copy mint">⧉</span><a id="mintlink" target="_blank" rel="noopener" title="view token on Orb">↗</a></span>
+    <span class="clock"><span class="live"></span><span class="mono" id="s-datetime">—</span> UTC</span>
+  </div>
+
+  <div class="kpis kpis-market">
+    <div class="kpi"><div class="l">Price</div><div class="v toke" id="s-price">—</div><div class="n">liquidity-weighted across pools · live</div></div>
+    <div class="kpi"><div class="l">Market cap</div><div class="v" id="s-mcap">—</div><div class="n">price × current supply</div></div>
+    <div class="kpi"><div class="l">Liquidity</div><div class="v" id="s-tvl">—</div><div class="n">pooled, all venues</div></div>
+    <div class="kpi"><div class="l">Volume 24h</div><div class="v" id="s-vol">—</div><div class="n">all pools</div></div>
+  </div>
   <div class="kpis" id="kpis"></div>
 
   <div class="provhead">
@@ -692,9 +684,9 @@ $('mintcopy').onclick=()=>{navigator.clipboard&&navigator.clipboard.writeText(MI
 const MINT_DATE=Date.parse('2023-06-22T18:03:43Z');   // genesis first block
 function tick(){ const s=new Date().toISOString(); $('s-datetime').textContent=s.slice(0,10)+' '+s.slice(11,19); }
 tick(); setInterval(tick,1000);
-(function age(){ const days=Math.floor((Date.now()-MINT_DATE)/864e5);
+window.__setAge=function(){ const el=$('s-age'); if(!el)return; const days=Math.floor((Date.now()-MINT_DATE)/864e5);
   const yr=Math.floor(days/365.25), d=days-Math.round(yr*365.25);
-  $('s-age').textContent=yr+' yr '+d+' d'; })();
+  el.textContent=yr+' yr '+d+' d'; }; window.__setAge();
 
 // ── cached last-good prices (avoids a blank header if a market API is slow/rate-limited) ──
 const PXKEY='toke_px_v1';
@@ -952,9 +944,10 @@ function buildKpis(){
   };
   const k=[['Current holders',fmt(holders,0),'wallets holding TOKE now'+kd(holders,'holders_then',n=>fmt(n,0))],
            ['Wallets ever touched',fmt(ALL.length,0),'distinct addresses, all-time'+kd(ALL.length,'wallets_then',n=>fmt(n,0))],
-           ['Current supply',tokeHtml(supply),'of '+fmt(MAX,0)+' max · '+burnedPct.toFixed(3)+'% burned'+kd(supply,'supply_then',n=>fmt(n,0))],
+           ['Current supply',tokeHtml(supply),'of '+fmt(MAX,0)+' max · '+burnedPct.toFixed(3)+'% burned · <span id="s-age">—</span> old'+kd(supply,'supply_then',n=>fmt(n,0))],
            ['Transfer legs',fmt(legs,0),'on-chain TOKE movements'+kdLegs()]];
   $('kpis').innerHTML=k.map(x=>`<div class="kpi"><div class="l">${x[0]}</div><div class="v">${x[1]}</div><div class="n">${x[2]}</div></div>`).join('');
+  if(window.__setAge) window.__setAge();
 }
 function matchMcvault(r){
   // facets compose: OR within Voted, OR within NFT, AND across Voted↔NFT↔set
