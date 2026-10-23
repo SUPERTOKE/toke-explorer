@@ -1,10 +1,10 @@
 {
  "dataset": "prospectus",
  "version": "v1",
- "as_of": "2026-10-21T18:26:21Z",
+ "as_of": "2026-10-23T08:32:49Z",
  "chain": "solana-mainnet",
  "visibility": "l2",
- "generated": "2026-10-21T19:15:04Z",
+ "generated": "2026-10-23T22:10:55Z",
  "source": {
   "pipeline": "build_prospectus.py",
   "inputs": [
@@ -45,82 +45,85 @@
   "token_as_of": null
  },
  "holders": {
-  "universe": 22711,
-  "holders": 12955,
+  "universe": 22714,
+  "holders": 12956,
   "with_domains": {
    "total": 326,
    "sol": 275,
    "ans": 80
   },
   "concentration_all": {
-   "top10_pct": 60.94,
-   "top50_pct": 94.35,
-   "top100_pct": 96.44
+   "top10_pct": 61.06,
+   "top50_pct": 94.34,
+   "top100_pct": 96.43
   },
   "concentration_people": {
-   "top10_pct": 27.85,
-   "top50_pct": 54.08,
-   "top100_pct": 55.44
+   "top10_pct": 23.69,
+   "top50_pct": 48.12,
+   "top100_pct": 49.44
   },
   "class_pct": {
-   "liquidity-pool": 38.2,
-   "treasury-gov": 1.7,
+   "liquidity-pool": 38.31,
+   "treasury-gov": 7.6,
    "program": 1.46,
-   "top100-people": 55.44,
-   "rest": 3.2
+   "top100-people": 49.44,
+   "rest": 3.19
   },
   "class_toke": {
-   "liquidity-pool": 160311403.583,
-   "treasury-gov": 7153201.663,
+   "liquidity-pool": 160801107.878,
+   "treasury-gov": 31885911.436,
    "program": 6130580.952,
-   "top100-people": 232667660.464,
-   "rest": 13432383.846
+   "top100-people": 207505170.251,
+   "rest": 13372459.991
   },
   "growth": {
    "1d": {
-    "holders_then": 12955,
-    "wallets_then": 22710,
-    "new_wallets": 1,
-    "legs_added": 21,
-    "cutoff": "2026-10-20T18:26:21Z"
+    "holders_then": 12956,
+    "wallets_then": 22714,
+    "new_wallets": 0,
+    "legs_added": 20,
+    "cutoff": "2026-10-22T08:32:49Z"
    },
    "7d": {
     "holders_then": 12956,
     "wallets_then": 22701,
-    "new_wallets": 10,
-    "legs_added": 188,
-    "cutoff": "2026-10-14T18:26:21Z"
+    "new_wallets": 13,
+    "legs_added": 164,
+    "cutoff": "2026-10-16T08:32:49Z"
    },
    "30d": {
     "holders_then": 12958,
-    "wallets_then": 22677,
-    "new_wallets": 34,
-    "legs_added": 744,
-    "cutoff": "2026-09-21T18:26:21Z"
+    "wallets_then": 22678,
+    "new_wallets": 36,
+    "legs_added": 763,
+    "cutoff": "2026-09-23T08:32:49Z"
    }
   }
  },
  "treasury": {
   "wallets": [
    {
-    "address": "BEmzTQaiwyj69uvxmdL9fSEuETg9vsVrRDAkmDE1HWTD",
-    "sns": null,
-    "sns_all": [],
-    "category": "governance",
-    "display": "Governance \u00b7 Realms",
-    "name": "SPL Governance (Realms) escrow",
-    "protocol": "Realms",
+    "address": "EJRLuph8jS33dVFYRcMqFuaq8J5NAvmGxZ5z6qHrZp9G",
+    "sns": "tokecouncil.sol",
+    "sns_all": [
+     "tokecouncil.sol"
+    ],
+    "category": "treasury",
+    "display": "Treasury \u00b7 Council",
+    "name": "TOKE Council treasury (received 28,474,786 TOKE under TIP-4, 2026-04-23)",
+    "protocol": "Council",
     "confidence": "confirmed",
-    "balance": 6054076.863,
-    "pct": 1.4425,
+    "balance": 24732709.773,
+    "pct": 5.893,
     "flow_30d": {
      "in": 0.0,
      "out": 0.0,
      "net": 0.0,
      "legs": 0
     },
-    "first_seen": "2024-01-22",
-    "last_seen": "2026-09-03"
+    "first_seen": "2025-07-23",
+    "last_seen": "2026-04-28",
+    "tier": 1
    },
    {
     "address": "CEkpDznmt6PLfqP1UBgGK1kHEunquN5BsmQqhnya8WYR",
@@ -140,7 +143,8 @@
      "legs": 0
     },
     "first_seen": "2024-10-29",
-    "last_seen": "2025-01-05"
+    "last_seen": "2025-01-05",
+    "tier": 1
    },
    {
     "address": "HgmHfEbXuHf7GDxGY9rCH28q8XQGxJxR7ajFKjwKR7KT",
@@ -150,7 +154,7 @@
     ],
     "category": "treasury",
     "display": "Treasury \u00b7 Realms",
-    "name": "McVault \u2014 Realms DAO treasury (TIP-4, unlocked)",
+    "name": "McVault \u2014 original Realms DAO treasury (emptied by TIP-4, 2026-04-23)",
     "protocol": "Realms",
     "confidence": "corroborated",
     "balance": 0.0,
@@ -162,13 +166,48 @@
      "legs": 0
     },
     "first_seen": "2024-01-30",
-    "last_seen": "2026-04-27"
+    "last_seen": "2026-04-27",
+    "tier": 1
+   },
+   {
+    "address": "BEmzTQaiwyj69uvxmdL9fSEuETg9vsVrRDAkmDE1HWTD",
+    "sns": null,
+    "sns_all": [],
+    "category": "governance",
+    "display": "Governance \u00b7 Realms",
+    "name": "SPL Governance (Realms) escrow",
+    "protocol": "Realms",
+    "confidence": "confirmed",
+    "balance": 6054076.863,
+    "pct": 1.4425,
+    "flow_30d": {
+     "in": 0.0,
+     "out": 0.0,
+     "net": 0.0,
+     "legs": 0
+    },
+    "first_seen": "2024-01-22",
+    "last_seen": "2026-09-03",
+    "tier": 2
    }
   ],
-  "total_balance": 7153201.663,
-  "total_pct": 1.7044,
+  "total_balance": 31885911.436,
+  "total_pct": 7.5974,
   "flows_window_days": 30,
-  "policy": null
+  "policy": null,
+  "tiers": {
+   "1": "council-controlled",
+   "2": "member-controlled escrow",
+   "3": "member-controlled individual"
+  },
+  "members": {
+   "wallets": 79,
+   "holding": 43,
+   "balance": 95761400.412,
+   "pct": 22.8169,
+   "proposals": 6,
+   "basis": "every wallet that cast a vote in a McToken DAO proposal on Realms, excluding council/governance wallets; aggregate only"
+  }
  },
  "governance": {
   "program": "GovER5Lthms3bLBqWub97yVrMmEogzX7xNjdXpPPCVZw",
@@ -244,7 +283,8 @@
      "legs": 0
     },
     "first_seen": "2024-01-22",
-    "last_seen": "2026-09-03"
+    "last_seen": "2026-09-03",
+    "tier": 2
    }
   ],
   "medals": {
