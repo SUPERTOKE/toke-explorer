@@ -1,10 +1,10 @@
 {
  "dataset": "prospectus",
  "version": "v1",
- "as_of": "2026-10-27T10:12:05Z",
+ "as_of": "2026-10-27T17:49:53Z",
  "chain": "solana-mainnet",
  "visibility": "l2",
- "generated": "2026-10-27T12:57:49Z",
+ "generated": "2026-10-27T18:10:10Z",
  "source": {
   "pipeline": "build_prospectus.py",
   "inputs": [
@@ -53,9 +53,9 @@
    "ans": 80
   },
   "concentration_all": {
-   "top10_pct": 61.07,
-   "top50_pct": 94.35,
-   "top100_pct": 96.44
+   "top10_pct": 61.06,
+   "top50_pct": 94.34,
+   "top100_pct": 96.43
   },
   "concentration_people": {
    "top10_pct": 23.69,
@@ -63,40 +63,40 @@
    "top100_pct": 49.44
   },
   "class_pct": {
-   "liquidity-pool": 38.32,
+   "liquidity-pool": 38.31,
    "treasury-gov": 7.6,
    "program": 1.46,
    "top100-people": 49.44,
-   "rest": 3.18
+   "rest": 3.19
   },
   "class_toke": {
-   "liquidity-pool": 160821948.798,
+   "liquidity-pool": 160801441.997,
    "treasury-gov": 31885911.436,
    "program": 6130580.952,
    "top100-people": 207505170.251,
-   "rest": 13351619.071
+   "rest": 13372125.872
   },
   "growth": {
    "1d": {
     "holders_then": 12954,
     "wallets_then": 22720,
     "new_wallets": 0,
-    "legs_added": 6,
-    "cutoff": "2026-10-26T10:12:05Z"
+    "legs_added": 8,
+    "cutoff": "2026-10-26T17:49:53Z"
    },
    "7d": {
     "holders_then": 12955,
     "wallets_then": 22710,
     "new_wallets": 10,
-    "legs_added": 139,
-    "cutoff": "2026-10-20T10:12:05Z"
+    "legs_added": 119,
+    "cutoff": "2026-10-20T17:49:53Z"
    },
    "30d": {
     "holders_then": 12958,
     "wallets_then": 22681,
     "new_wallets": 39,
     "legs_added": 730,
-    "cutoff": "2026-09-27T10:12:05Z"
+    "cutoff": "2026-09-27T17:49:53Z"
    }
   }
  },

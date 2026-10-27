@@ -1,7 +1,7 @@
 {
   "dataset": "holders",
   "version": "v1",
-  "as_of": "2026-10-27T10:12:05Z",
+  "as_of": "2026-10-27T17:49:53Z",
   "chain": "solana-mainnet",
   "source": {
     "derived_from": [
@@ -20,8 +20,8 @@
   "data": [
     {
       "address": "HLnpSz9h2S4hiLQ43rnSD9XkcUThA7B8hQMKmDaiTLcC",
-      "balance": 81403123.465,
-      "pct": 19.381693,
+      "balance": 81382596.137,
+      "pct": 19.376805,
       "rank": 1,
       "type": "lp",
       "type_basis": "Meteora DYN2 SOL pool -- liquidity, not a personal holder",
@@ -2219,8 +2219,8 @@
     },
     {
       "address": "3LoAYHuSd7Gh8d7RTFnhvYtiTiefdZ5ByamU42vkzd76",
-      "balance": 1642.174,
-      "pct": 0.000391,
+      "balance": 1662.701,
+      "pct": 0.000396,
       "rank": 90,
       "type": "lp",
       "type_basis": "Pool vault authority (off-curve PDA) -- liquidity, not a personal holder",
