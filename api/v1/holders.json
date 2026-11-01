@@ -1,7 +1,7 @@
 {
   "dataset": "holders",
   "version": "v1",
-  "as_of": "2026-10-31T01:01:35Z",
+  "as_of": "2026-10-31T23:02:01Z",
   "chain": "solana-mainnet",
   "source": {
     "derived_from": [
@@ -757,8 +757,8 @@
     },
     {
       "address": "5Q544fKrFoe6tsEbD7S8EmxGTJYAKtTVhAW5Q5pge4j1",
-      "balance": 3338128.945,
-      "pct": 0.794792,
+      "balance": 3338138.959,
+      "pct": 0.794795,
       "rank": 29,
       "type": "lp",
       "type_basis": "Raydium — Raydium AMM v4 authority -- liquidity, not a personal holder",
@@ -2971,32 +2971,10 @@
       }
     },
     {
-      "address": "9RknqkTvTac1dn2x42zDkePy3UV2V7rRHgo2Q4XUnUHf",
-      "balance": 10.103,
-      "pct": 2e-06,
-      "rank": 122,
-      "type": "lp",
-      "type_basis": "Pool vault authority (off-curve PDA) -- liquidity, not a personal holder",
-      "pool": "Liquidity Pool",
-      "pair": null,
-      "sns": null,
-      "domains": [],
-      "badges": [
-        "mcvoter"
-      ],
-      "cohorts": [],
-      "first_seen": "2023-07-16",
-      "age_days": 1203,
-      "cite": {
-        "type": "account",
-        "ref": "9RknqkTvTac1dn2x42zDkePy3UV2V7rRHgo2Q4XUnUHf"
-      }
-    },
-    {
       "address": "9chn1NHGuNj2SKRtFPC7WLKuK1yazgG1Fx72jouDk6gh",
       "balance": 1.0,
       "pct": 0.0,
-      "rank": 123,
+      "rank": 122,
       "type": "lp",
       "type_basis": "Pool vault authority (off-curve PDA) -- liquidity, not a personal holder",
       "pool": "Liquidity Pool",
@@ -3018,7 +2996,7 @@
       "address": "38jq7W7HA3YUJ5zj5PaUwP6yNrVpp1YAWKg1tYTfxK17",
       "balance": 0.929,
       "pct": 0.0,
-      "rank": 124,
+      "rank": 123,
       "type": "holder",
       "type_basis": "default -- holds TOKE; no further claim",
       "pool": null,
@@ -3043,7 +3021,7 @@
       "address": "9y6Z3aGWhaXp6wmSPjLn3ybhriVi5FfN4ae5Ry2PdXmx",
       "balance": 0.929,
       "pct": 0.0,
-      "rank": 125,
+      "rank": 124,
       "type": "holder",
       "type_basis": "default -- holds TOKE; no further claim",
       "pool": null,
@@ -3068,7 +3046,7 @@
       "address": "mq6Z9eA9TMQXNrsTpzxEq2VSHbuivWSNA8i67hD8yjW",
       "balance": 0.4,
       "pct": 0.0,
-      "rank": 126,
+      "rank": 125,
       "type": "lp",
       "type_basis": "Meteora — Meteora DLMM — TOKE vault -- liquidity, not a personal holder",
       "pool": "Liquidity Pool · Meteora",
@@ -3090,7 +3068,7 @@
       "address": "EZvyYN1Q98yPJXh8FCTx94ZYFeo6wtJ544hKdAF72QyU",
       "balance": 0.202,
       "pct": 0.0,
-      "rank": 127,
+      "rank": 126,
       "type": "holder",
       "type_basis": "default -- holds TOKE; no further claim",
       "pool": null,
@@ -3108,6 +3086,28 @@
       "cite": {
         "type": "account",
         "ref": "EZvyYN1Q98yPJXh8FCTx94ZYFeo6wtJ544hKdAF72QyU"
+      }
+    },
+    {
+      "address": "9RknqkTvTac1dn2x42zDkePy3UV2V7rRHgo2Q4XUnUHf",
+      "balance": 0.089,
+      "pct": 0.0,
+      "rank": 127,
+      "type": "lp",
+      "type_basis": "Pool vault authority (off-curve PDA) -- liquidity, not a personal holder",
+      "pool": "Liquidity Pool",
+      "pair": null,
+      "sns": null,
+      "domains": [],
+      "badges": [
+        "sub-1-toke"
+      ],
+      "cohorts": [],
+      "first_seen": "2023-07-16",
+      "age_days": 1203,
+      "cite": {
+        "type": "account",
+        "ref": "9RknqkTvTac1dn2x42zDkePy3UV2V7rRHgo2Q4XUnUHf"
       }
     },
     {
