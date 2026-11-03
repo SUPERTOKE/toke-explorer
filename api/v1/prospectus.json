@@ -1,10 +1,10 @@
 {
  "dataset": "prospectus",
  "version": "v1",
- "as_of": "2026-11-02T01:14:22Z",
+ "as_of": "2026-11-03T04:28:30Z",
  "chain": "solana-mainnet",
  "visibility": "l2",
- "generated": "2026-11-02T16:07:46Z",
+ "generated": "2026-11-03T07:53:05Z",
  "source": {
   "pipeline": "build_prospectus.py",
   "inputs": [
@@ -45,7 +45,7 @@
   "token_as_of": null
  },
  "holders": {
-  "universe": 22723,
+  "universe": 22724,
   "holders": 12950,
   "with_domains": {
    "total": 325,
@@ -53,50 +53,50 @@
    "ans": 79
   },
   "concentration_all": {
-   "top10_pct": 61.06,
+   "top10_pct": 60.96,
    "top50_pct": 94.35,
    "top100_pct": 96.44
   },
   "concentration_people": {
    "top10_pct": 23.69,
-   "top50_pct": 48.12,
-   "top100_pct": 49.44
+   "top50_pct": 48.23,
+   "top100_pct": 49.55
   },
   "class_pct": {
-   "liquidity-pool": 38.31,
+   "liquidity-pool": 38.21,
    "treasury-gov": 7.6,
    "program": 1.46,
-   "top100-people": 49.44,
+   "top100-people": 49.55,
    "rest": 3.19
   },
   "class_toke": {
-   "liquidity-pool": 160803426.687,
+   "liquidity-pool": 160349094.944,
    "treasury-gov": 31885911.436,
    "program": 6130580.952,
-   "top100-people": 207505170.251,
-   "rest": 13369112.261
+   "top100-people": 207959501.68,
+   "rest": 13369112.575
   },
   "growth": {
    "1d": {
-    "holders_then": 12951,
+    "holders_then": 12950,
     "wallets_then": 22723,
-    "new_wallets": 0,
-    "legs_added": 9,
-    "cutoff": "2026-11-01T01:14:22Z"
+    "new_wallets": 1,
+    "legs_added": 39,
+    "cutoff": "2026-11-02T04:28:30Z"
    },
    "7d": {
     "holders_then": 12951,
     "wallets_then": 22720,
-    "new_wallets": 3,
-    "legs_added": 149,
-    "cutoff": "2026-10-26T01:14:22Z"
+    "new_wallets": 4,
+    "legs_added": 186,
+    "cutoff": "2026-10-27T04:28:30Z"
    },
    "30d": {
     "holders_then": 12957,
-    "wallets_then": 22689,
+    "wallets_then": 22690,
     "new_wallets": 34,
-    "legs_added": 739,
-    "cutoff": "2026-10-03T01:14:22Z"
+    "legs_added": 761,
+    "cutoff": "2026-10-04T04:28:30Z"
    }
   }
  },
