@@ -1,7 +1,7 @@
 {
   "dataset": "holders_all",
   "version": "v1",
-  "as_of": "2026-11-05T02:14:37Z",
+  "as_of": "2026-11-05T18:14:06Z",
   "chain": "solana-mainnet",
   "source": {
     "derived_from": [
@@ -20,8 +20,8 @@
   "data": [
     {
       "address": "HLnpSz9h2S4hiLQ43rnSD9XkcUThA7B8hQMKmDaiTLcC",
-      "balance": 80949990.384,
-      "pct": 19.273804,
+      "balance": 80968245.787,
+      "pct": 19.278151,
       "rank": 1,
       "type": "lp",
       "sns": null,
@@ -632,8 +632,8 @@
     },
     {
       "address": "5Q544fKrFoe6tsEbD7S8EmxGTJYAKtTVhAW5Q5pge4j1",
-      "balance": 3325096.684,
-      "pct": 0.79169,
+      "balance": 3307320.642,
+      "pct": 0.787457,
       "rank": 29,
       "type": "lp",
       "sns": null,
@@ -1403,10 +1403,28 @@
       }
     },
     {
-      "address": "GpMZbSM2GgvTKHJirzeGfMFoaZ8UR2X7F4v8vHTvxFbL",
-      "balance": 164073.136,
-      "pct": 0.039065,
+      "address": "3M6n1wNnZ2bJFrgwgs8J73RcsQXiYdUVFg8c2p56mzCu",
+      "balance": 163624.33,
+      "pct": 0.038958,
       "rank": 70,
+      "type": "holder",
+      "sns": null,
+      "badges": [
+        "mcvoter"
+      ],
+      "cohorts": [],
+      "first_seen": "2025-08-26",
+      "age_days": 436,
+      "cite": {
+        "type": "account",
+        "ref": "3M6n1wNnZ2bJFrgwgs8J73RcsQXiYdUVFg8c2p56mzCu"
+      }
+    },
+    {
+      "address": "GpMZbSM2GgvTKHJirzeGfMFoaZ8UR2X7F4v8vHTvxFbL",
+      "balance": 163593.775,
+      "pct": 0.038951,
+      "rank": 71,
       "type": "lp",
       "sns": null,
       "badges": [
@@ -1420,24 +1438,6 @@
       "cite": {
         "type": "account",
         "ref": "GpMZbSM2GgvTKHJirzeGfMFoaZ8UR2X7F4v8vHTvxFbL"
-      }
-    },
-    {
-      "address": "3M6n1wNnZ2bJFrgwgs8J73RcsQXiYdUVFg8c2p56mzCu",
-      "balance": 163624.33,
-      "pct": 0.038958,
-      "rank": 71,
-      "type": "holder",
-      "sns": null,
-      "badges": [
-        "mcvoter"
-      ],
-      "cohorts": [],
-      "first_seen": "2025-08-26",
-      "age_days": 436,
-      "cite": {
-        "type": "account",
-        "ref": "3M6n1wNnZ2bJFrgwgs8J73RcsQXiYdUVFg8c2p56mzCu"
       }
     },
     {
