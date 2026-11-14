@@ -1,7 +1,7 @@
 {
   "dataset": "holders_all",
   "version": "v1",
-  "as_of": "2026-11-14T05:02:24Z",
+  "as_of": "2026-11-14T16:46:45Z",
   "chain": "solana-mainnet",
   "source": {
     "derived_from": [
@@ -20,8 +20,8 @@
   "data": [
     {
       "address": "HLnpSz9h2S4hiLQ43rnSD9XkcUThA7B8hQMKmDaiTLcC",
-      "balance": 80994999.025,
-      "pct": 19.28452,
+      "balance": 81002026.0,
+      "pct": 19.286193,
       "rank": 1,
       "type": "lp",
       "sns": null,
@@ -632,8 +632,8 @@
     },
     {
       "address": "5Q544fKrFoe6tsEbD7S8EmxGTJYAKtTVhAW5Q5pge4j1",
-      "balance": 3283532.832,
-      "pct": 0.781793,
+      "balance": 3276962.179,
+      "pct": 0.780229,
       "rank": 29,
       "type": "lp",
       "sns": null,
@@ -1422,8 +1422,8 @@
     },
     {
       "address": "GpMZbSM2GgvTKHJirzeGfMFoaZ8UR2X7F4v8vHTvxFbL",
-      "balance": 160362.52,
-      "pct": 0.038182,
+      "balance": 159906.198,
+      "pct": 0.038073,
       "rank": 71,
       "type": "lp",
       "sns": null,
@@ -230534,7 +230534,7 @@
       "pct": 2e-06,
       "rank": 12793,
       "type": "holder",
-      "sns": null,
+      "sns": "hrvojesolflare.skr",
       "badges": [
         "mcvoter"
       ],
