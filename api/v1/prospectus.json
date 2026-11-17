@@ -1,10 +1,10 @@
 {
  "dataset": "prospectus",
  "version": "v1",
- "as_of": "2026-11-17T05:21:01Z",
+ "as_of": "2026-11-17T21:05:08Z",
  "chain": "solana-mainnet",
  "visibility": "l2",
- "generated": "2026-11-17T09:02:52Z",
+ "generated": "2026-11-17T21:11:07Z",
  "source": {
   "pipeline": "build_prospectus.py",
   "inputs": [
@@ -32,7 +32,7 @@
   "symbol": "TOKE",
   "decimals": 3,
   "max_supply": 420000069.0,
-  "current_supply": 419694201.587,
+  "current_supply": 419693780.897,
   "burned": 301673.04,
   "burned_pct": 0.0718,
   "authorities": {
@@ -46,11 +46,11 @@
  },
  "holders": {
   "universe": 22743,
-  "holders": 12946,
+  "holders": 12945,
   "with_domains": {
    "total": 324,
    "sol": 274,
-   "ans": 78
+   "ans": 77
   },
   "concentration_all": {
    "top10_pct": 60.97,
@@ -58,7 +58,7 @@
    "top100_pct": 96.44
   },
   "concentration_people": {
-   "top10_pct": 23.69,
+   "top10_pct": 23.7,
    "top50_pct": 48.23,
    "top100_pct": 49.55
   },
@@ -74,29 +74,29 @@
    "treasury-gov": 31885911.436,
    "program": 6130580.952,
    "top100-people": 207959501.68,
-   "rest": 13367803.939
+   "rest": 13367383.249
   },
   "growth": {
    "1d": {
-    "holders_then": 12947,
+    "holders_then": 12945,
     "wallets_then": 22743,
     "new_wallets": 0,
-    "legs_added": 43,
-    "cutoff": "2026-11-16T05:21:01Z"
+    "legs_added": 60,
+    "cutoff": "2026-11-16T21:05:08Z"
    },
    "7d": {
     "holders_then": 12946,
     "wallets_then": 22735,
     "new_wallets": 8,
-    "legs_added": 492,
-    "cutoff": "2026-11-10T05:21:01Z"
+    "legs_added": 466,
+    "cutoff": "2026-11-10T21:05:08Z"
    },
    "30d": {
-    "holders_then": 12950,
+    "holders_then": 12949,
     "wallets_then": 22703,
     "new_wallets": 40,
-    "legs_added": 1048,
-    "cutoff": "2026-10-18T05:21:01Z"
+    "legs_added": 1063,
+    "cutoff": "2026-10-18T21:05:08Z"
    }
   }
  },
@@ -204,7 +204,7 @@
    "wallets": 79,
    "holding": 43,
    "balance": 95761400.412,
-   "pct": 22.8169,
+   "pct": 22.817,
    "proposals": 6,
    "basis": "every wallet that cast a vote in a McToken DAO proposal on Realms, excluding council/governance wallets; aggregate only"
   }
