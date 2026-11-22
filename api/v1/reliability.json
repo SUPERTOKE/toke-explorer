@@ -3,9 +3,9 @@
   "publish_allowed": true,
   "flow_reconciled": true,
   "scope": "verified: complete wallet listing + exact current balances + freshness + FULL transfer-flow reconciliation (every wallet's net flow == its on-chain balance).",
-  "generated": "2026-11-22T07:11:02.931925Z",
-  "as_of": "2026-11-22T05:19:15Z",
-  "lag_hours": 1.69,
+  "generated": "2026-11-22T19:56:06.988472Z",
+  "as_of": "2026-11-22T17:20:11Z",
+  "lag_hours": 2.52,
   "gating": [
     {
       "check": "I1 genesis mint",
@@ -39,7 +39,7 @@
     },
     {
       "check": "I3 flow-history (DAO/vault)",
-      "note": "0.5631% of supply documented as Helius-decode limited"
+      "note": "0.5632% of supply documented as Helius-decode limited"
     }
   ],
   "punch_list": []

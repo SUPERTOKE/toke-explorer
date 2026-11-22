@@ -1,10 +1,10 @@
 {
  "dataset": "prospectus",
  "version": "v1",
- "as_of": "2026-11-22T05:19:15Z",
+ "as_of": "2026-11-22T17:20:11Z",
  "chain": "solana-mainnet",
  "visibility": "l2",
- "generated": "2026-11-22T07:10:57Z",
+ "generated": "2026-11-22T19:56:00Z",
  "source": {
   "pipeline": "build_prospectus.py",
   "inputs": [
@@ -45,8 +45,8 @@
   "token_as_of": null
  },
  "holders": {
-  "universe": 22746,
-  "holders": 12944,
+  "universe": 22748,
+  "holders": 12945,
   "with_domains": {
    "total": 324,
    "sol": 274,
@@ -70,33 +70,33 @@
    "rest": 3.18
   },
   "class_toke": {
-   "liquidity-pool": 160385138.196,
+   "liquidity-pool": 160385013.828,
    "treasury-gov": 31885911.436,
    "program": 6130580.952,
-   "top100-people": 207925187.803,
-   "rest": 13366962.51
+   "top100-people": 207925191.934,
+   "rest": 13367082.747
   },
   "growth": {
    "1d": {
     "holders_then": 12944,
     "wallets_then": 22746,
-    "new_wallets": 0,
-    "legs_added": 58,
-    "cutoff": "2026-11-21T05:19:15Z"
+    "new_wallets": 2,
+    "legs_added": 20,
+    "cutoff": "2026-11-21T17:20:11Z"
    },
    "7d": {
     "holders_then": 12945,
     "wallets_then": 22742,
-    "new_wallets": 4,
-    "legs_added": 395,
-    "cutoff": "2026-11-15T05:19:15Z"
+    "new_wallets": 6,
+    "legs_added": 376,
+    "cutoff": "2026-11-15T17:20:11Z"
    },
    "30d": {
     "holders_then": 12949,
     "wallets_then": 22714,
-    "new_wallets": 32,
-    "legs_added": 1237,
-    "cutoff": "2026-10-23T05:19:15Z"
+    "new_wallets": 34,
+    "legs_added": 1248,
+    "cutoff": "2026-10-23T17:20:11Z"
    }
   }
  },
@@ -203,7 +203,7 @@
   "members": {
    "wallets": 79,
    "holding": 43,
-   "balance": 95727086.535,
+   "balance": 95727090.666,
    "pct": 22.8088,
    "proposals": 6,
    "basis": "every wallet that cast a vote in a McToken DAO proposal on Realms, excluding council/governance wallets; aggregate only"
