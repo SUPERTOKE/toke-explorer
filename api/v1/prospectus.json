@@ -1,10 +1,10 @@
 {
  "dataset": "prospectus",
  "version": "v1",
- "as_of": "2026-11-21T15:14:16Z",
+ "as_of": "2026-11-22T05:19:15Z",
  "chain": "solana-mainnet",
  "visibility": "l2",
- "generated": "2026-11-21T20:24:35Z",
+ "generated": "2026-11-22T07:10:57Z",
  "source": {
   "pipeline": "build_prospectus.py",
   "inputs": [
@@ -45,7 +45,7 @@
   "token_as_of": null
  },
  "holders": {
-  "universe": 22745,
+  "universe": 22746,
   "holders": 12944,
   "with_domains": {
    "total": 324,
@@ -53,50 +53,50 @@
    "ans": 77
   },
   "concentration_all": {
-   "top10_pct": 60.97,
+   "top10_pct": 60.98,
    "top50_pct": 94.35,
    "top100_pct": 96.44
   },
   "concentration_people": {
-   "top10_pct": 23.7,
-   "top50_pct": 48.23,
-   "top100_pct": 49.55
+   "top10_pct": 23.69,
+   "top50_pct": 48.22,
+   "top100_pct": 49.54
   },
   "class_pct": {
    "liquidity-pool": 38.21,
    "treasury-gov": 7.6,
    "program": 1.46,
-   "top100-people": 49.55,
+   "top100-people": 49.54,
    "rest": 3.18
   },
   "class_toke": {
-   "liquidity-pool": 160350824.319,
+   "liquidity-pool": 160385138.196,
    "treasury-gov": 31885911.436,
    "program": 6130580.952,
-   "top100-people": 207959501.68,
+   "top100-people": 207925187.803,
    "rest": 13366962.51
   },
   "growth": {
    "1d": {
     "holders_then": 12944,
-    "wallets_then": 22744,
-    "new_wallets": 1,
-    "legs_added": 160,
-    "cutoff": "2026-11-20T15:14:16Z"
+    "wallets_then": 22746,
+    "new_wallets": 0,
+    "legs_added": 58,
+    "cutoff": "2026-11-21T05:19:15Z"
    },
    "7d": {
     "holders_then": 12945,
-    "wallets_then": 22741,
+    "wallets_then": 22742,
     "new_wallets": 4,
-    "legs_added": 539,
-    "cutoff": "2026-11-14T15:14:16Z"
+    "legs_added": 395,
+    "cutoff": "2026-11-15T05:19:15Z"
    },
    "30d": {
     "holders_then": 12949,
     "wallets_then": 22714,
-    "new_wallets": 31,
-    "legs_added": 1235,
-    "cutoff": "2026-10-22T15:14:16Z"
+    "new_wallets": 32,
+    "legs_added": 1237,
+    "cutoff": "2026-10-23T05:19:15Z"
    }
   }
  },
@@ -203,8 +203,8 @@
   "members": {
    "wallets": 79,
    "holding": 43,
-   "balance": 95761400.412,
-   "pct": 22.817,
+   "balance": 95727086.535,
+   "pct": 22.8088,
    "proposals": 6,
    "basis": "every wallet that cast a vote in a McToken DAO proposal on Realms, excluding council/governance wallets; aggregate only"
   }
