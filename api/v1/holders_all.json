@@ -1,7 +1,7 @@
 {
   "dataset": "holders_all",
   "version": "v1",
-  "as_of": "2026-11-24T08:02:29Z",
+  "as_of": "2026-11-24T19:05:50Z",
   "chain": "solana-mainnet",
   "source": {
     "derived_from": [
@@ -20,8 +20,8 @@
   "data": [
     {
       "address": "HLnpSz9h2S4hiLQ43rnSD9XkcUThA7B8hQMKmDaiTLcC",
-      "balance": 81043470.596,
-      "pct": 19.296061,
+      "balance": 81046003.819,
+      "pct": 19.296664,
       "rank": 1,
       "type": "lp",
       "sns": null,
@@ -632,8 +632,8 @@
     },
     {
       "address": "5Q544fKrFoe6tsEbD7S8EmxGTJYAKtTVhAW5Q5pge4j1",
-      "balance": 3273200.614,
-      "pct": 0.779333,
+      "balance": 3270667.391,
+      "pct": 0.77873,
       "rank": 29,
       "type": "lp",
       "sns": null,
@@ -4297,7 +4297,7 @@
       }
     },
     {
-      "address": "DADVT8DSZuMviURjfVMjG1caVqbQjRwqsP4M42BNEiB8",
+      "address": "hmaHDHshUxQDmgwy8ZLoy6SP2tcZUDuSe4XEsw2DXNd",
       "balance": 13420.69,
       "pct": 0.003195,
       "rank": 229,
@@ -4307,11 +4307,11 @@
         "mcvoter"
       ],
       "cohorts": [],
-      "first_seen": "2023-09-25",
-      "age_days": 1156,
+      "first_seen": "2026-11-24",
+      "age_days": 0,
       "cite": {
         "type": "account",
-        "ref": "DADVT8DSZuMviURjfVMjG1caVqbQjRwqsP4M42BNEiB8"
+        "ref": "hmaHDHshUxQDmgwy8ZLoy6SP2tcZUDuSe4XEsw2DXNd"
       }
     },
     {
