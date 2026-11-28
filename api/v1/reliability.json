@@ -3,8 +3,8 @@
   "publish_allowed": true,
   "flow_reconciled": true,
   "scope": "verified: complete wallet listing + exact current balances + freshness + FULL transfer-flow reconciliation (every wallet's net flow == its on-chain balance).",
-  "generated": "2026-11-27T21:32:48.199371Z",
-  "as_of": "2026-11-27T20:43:57Z",
+  "generated": "2026-11-28T08:09:12.086958Z",
+  "as_of": "2026-11-28T07:20:06Z",
   "lag_hours": 0.74,
   "gating": [
     {
